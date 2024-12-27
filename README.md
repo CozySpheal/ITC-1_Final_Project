@@ -14,6 +14,6 @@ Voyage is a simple travel blog featuring a few travel destinations in France.
 
 HTML, CSS
 
-## How to Run Project:
+## How to Run Project Locally:
 
 Download files and store them within the same folder. Open index.html to open home page.
