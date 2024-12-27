@@ -6,7 +6,7 @@ Voyage is a simple travel blog featuring a few travel destinations in France.
 
 ## Website Features:
 
-- Hovering on the differnt destiinations provides a brief description and a read more button to reveal more information.
+- Hovering on the different destinations provides a brief description and a read more button to reveal more information.
 - Navigation bar for easier traversal between pages
 - A contact form to provide feedback and inquiries
 
