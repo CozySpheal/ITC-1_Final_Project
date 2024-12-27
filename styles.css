@@ -1,0 +1,322 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+
+body {
+    color:#000;
+    background-color:#f1f1f1
+}
+
+.navigation-bar {
+    width:100%;
+    overflow:hidden;
+    border-bottom:1px solid #ccc;
+    font-size:24px;
+    color:#000;
+    background-color:#fff;
+    vertical-align: middle;
+}
+
+.bar-item {
+    float:left;
+    width:auto;
+    border:none;
+    outline:0;
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:#f44336;
+    background-color:fff;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin: auto;
+}
+
+.bar-item:hover{color:#fff;background-color:#f44336}
+
+.bar-item i {
+    margin-right:16px
+}
+
+.hero {
+    background: url("images/hero.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+    display: flex;
+    align-items: end;
+    font-size: 30px;
+    color: #fff;
+}
+
+.hero span {
+    padding:8px 16px;
+    display: flex;
+    align-items: baseline;
+    flex: none;
+}
+
+.hero p {
+    padding-left: 8px;
+}
+
+.hero-voyage {
+    color: #f44336!important;
+}
+
+.content {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1100px
+}
+
+.header-6 {
+    padding:0.01em 16px;
+    margin-top:16px
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.destination-card {
+    flex-direction: row-reverse;
+    height: 50vw;
+    color: #fff;
+    transition: .5s ease;
+    padding: 10px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.paris {
+    background-image:url("images/paris.jpg");
+}
+
+.parc-national-de-la-vanoise {
+    background-image: url("images/parc\ national\ de\ la\ vanoise.jpg");
+}
+
+.normandy {
+    background-image: url("images/normandy.jpg");
+}
+
+.overlay {
+    max-height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+.destination-card:hover{
+    background-color: #f44336;
+    background-image: none;
+}
+
+.destination-card:hover .overlay {
+    opacity: 1;
+}
+
+.destination-card:hover .read-more {
+    opacity: 1;
+}
+
+.destination-card span{
+    background-color: #f44336;
+}
+
+.read-more {
+    background-color:#f44336;
+    border:#fff;
+    border-style: solid;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.read-more:hover {
+    background-color: #fff;
+    color: #f44336;
+}
+
+
+footer {
+    padding:0.01em 16px;
+    text-align:center;
+    opacity:0.60;
+    margin-bottom:16px
+}
+
+.footer-div {
+    font-size:24px;
+    padding-top:16px
+}
+
+footer i:hover {
+    opacity:0.60
+}
+
+.paris-page {
+    width: 100%;
+    height: 100%;
+    background: url("images/paris.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.parc-page {
+    width: 100%;
+    height: 100%;
+    background: url("images/parc\ national\ de\ la\ vanoise.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.normandy-page {
+    width: 100%;
+    height: 100%;
+    background: url("images/normandy.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.about-contact-page {
+    width: 100%;
+    height: 100%;
+    background: url("images/france.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.destination-page-card {
+    width: 85%;
+    background-color: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #f44336;
+    padding: 3vw;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f44336;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+::selection {
+    color: #fff;
+    background: #f44336;
+}
+
+input[type=text]:focus {
+    border: #f44336;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #f44336;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+textarea:focus{
+    border: 1px solid #f44336;
+}
+
+input[type=submit]:hover {
+    background-color: white; 
+    color: #f44336; 
+    border: 2px solid #f44336;
+}
+  
+input[type=submit] {
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #f44336;
+}
+/* Media Queries */
+
+/* Tablets */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .navigation-bar {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    .hero span {
+        flex-direction: column;
+    }
+    .destination-grid {
+        grid-template-columns: auto;
+    }
+    .overlay {
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 480px) {
+    .navigation-bar {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+    .hero span {
+        flex-direction: column;
+    }
+    .destination-grid {
+        grid-template-columns: auto;
+    }
+    .overlay {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+}
+
