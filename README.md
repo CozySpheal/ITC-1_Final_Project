@@ -1,6 +1,6 @@
 # ITC-1_Final_Project: Voyage
 
-Voyage is a simple travel blog featuring a few ttravel destinations in France.
+Voyage is a simple travel blog featuring a few travel destinations in France.
 
 **Link to project:** https://cozyspheal.github.io/ITC-1_Final_Project/index.html
 
